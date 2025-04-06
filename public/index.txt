@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>My Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
-    <!-- Header -->
+    <!-- Header with Navigation -->
     <header>
         <div>
             <div class="header-content">
@@ -19,7 +20,7 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="container">
             <h1>Soran Qiji</h1>
             <h2>Software Developer</h2>
@@ -101,7 +102,7 @@
 
 
     <!-- Projects Section -->
-    <section class="section">
+    <section id="projects" class="section">
         <div class="container">
             <div class="section-title">My Projects</div>
             <div class="section-content">
@@ -133,7 +134,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="section">
+    <section id="contact" class="section">
         <div class="container">
             <div class="section-title">Contact</div>
             <div class="section-content">

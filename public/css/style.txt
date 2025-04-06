@@ -16,15 +16,16 @@ body {
 
 /* Header Styles */
 header {
-    color: #3498db;
+    color: black;
     padding: 1rem 0;
+    position: sticky;
     top: 0;
     z-index: 100;
 }
 
 .container {
     width: 90%;
-    max-width: 95%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -72,7 +73,7 @@ header {
 
 /* Collapsible Sections */
 .section {
-    padding: 1rem 5%; /* Changed padding */
+    padding: 1rem 10rem;
 }
 
 .section-title {
@@ -84,11 +85,17 @@ header {
     min-width: 44px;
 }
 
+/* .section-title:hover {
+    background-color: #34495e;
+} */
+
 .section-title::after {
     content: '+';
     font-weight: bold;
     font-size: 2rem;
     padding: 10px;
+    
+    
 }
 
 .section-title.active::after {
@@ -96,7 +103,7 @@ header {
     font-weight: bold;
     font-size: 2rem;
     display: inline-block;
-
+    
 }
 
 .section-content {
@@ -226,7 +233,7 @@ header {
 
 /* Contact Section */
 .contact-form {
-    max-width: 90%; /* Changed max-width */
+    max-width: 600px;
     margin: 0 auto;
     background-color: white;
     padding: 2rem;
@@ -269,8 +276,8 @@ footer {
     background-color: darkslateblue;
     color: white;
     text-align: center;
-    padding: 2rem;
-    margin: 3rem 0;
+    padding: 2rem 0;
+    margin-top: 2rem;
 }
 
 .social-links {
@@ -286,35 +293,4 @@ footer {
 
 .social-links a:hover {
     color: #3498db;
-}
-
-/* Responsive Styles */
-
-/* For smaller screens (e.g., mobile phones) */
-@media (max-width: 768px) {
-    .section {
-        padding: 1rem 2rem; /* Reduce padding */
-    }
-    .hero h1 {
-        font-size: 1.5rem; /* Smaller heading */
-    }
-    .skills-container {
-        grid-template-columns: 1fr; /* Stack skills vertically */
-    }
-    .projects-grid {
-        grid-template-columns: 1fr; /* Stack projects vertically */
-    }
-}
-
-/* For even smaller screens (e.g., very small phones) */
-@media (max-width: 480px) {
-    .section-title {
-        font-size: 1.2rem; /* Even smaller title */
-    }
-}
-
-/* Make images responsive (if you have them) */
-img {
-    max-width: 100%;
-    height: auto;
 }
