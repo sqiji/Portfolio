@@ -1,38 +1,39 @@
-# Portfolio
+# Portfolio - Software Developer | Data Analyst
 
-This repository contains the architecture and deployment configuration for my professional portfolio. It features a custom Node.js backend designed for optimized routing and real-time communication.
+A minimalist, responsive portfolio website built to showcase my journey from Statistics to Software Development. This project uses a **Node.js** backend with **Express.js** and is hosted on **Firebase**.
 
-**🔗 Live Link:** [soranqiji.firebaseapp.com](https://soranqiji.firebaseapp.com)
+## 🚀 Live Demo
+[View my Portfolio](soranqiji.firebaseapp.com)
 
 ---
 
 ## 🛠 Tech Stack
 
-* **Backend:** Node.js, Express
-* **Hosting:** Firebase Hosting
-* **APIs:** Third-party Communication/Messaging APIs
-
-## 🚀 Technical Implementation
-
-* **Custom Server Architecture:** Developed a Node.js/Express server to manage server-side routing and optimize the delivery of static assets.
-* **Seamless Navigation:** Configured a "catch-all" system for Firebase Hosting to support Single Page Application (SPA) navigation and prevent 404 errors on deep links.
-* **Real-Time Messaging:** Integrated external APIs to facilitate direct user-to-developer communication via the portfolio interface.
-* **Production Management:** Managed the full deployment lifecycle on Azure/Firebase, ensuring robust schema modeling and architectural integrity.
-
-## ⚙️ Local Setup
-
-1.  **Clone the repo:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
-    ```
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-3.  **Run locally:**
-    ```bash
-    npm start
-    ```
+* **Backend:** Node.js, Express.js
+* **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+* **Deployment:** Firebase Hosting
+* **DevOps:** GitHub Actions (CI/CD), Git
+* **Design:** Figma
 
 ---
-*Developed by a Software Developer & Statistician dedicated to building robust, data-driven solutions.*
+
+## ✨ Key Features
+
+* **Modular UI:** Uses an accordion-style interface to keep information organized and scannable.
+* **Full-Stack Foundation:** Powered by an Express server (`server.js`) to handle routing and potential API integrations.
+* **Professional Background:** Highlights a unique blend of **Statistics** and **Software Development** expertise.
+* **Contact Integration:** Includes a functional contact form for professional inquiries.
+
+---
+
+## 📂 Project Structure
+
+```text
+├── .github/workflows/  # Automated Firebase deployment scripts
+├── node_modules/       # Project dependencies
+├── public/             # Static files (HTML, CSS, Client JS)
+├── .firebaserc         # Firebase project association
+├── firebase.json       # Firebase hosting configuration
+├── package.json        # Node.js metadata and dependencies
+├── server.js           # Express server entry point
+└── Procfile            # Process file for production hosting
