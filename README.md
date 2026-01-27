@@ -2,12 +2,12 @@
 
 A minimalist, responsive portfolio website built to showcase my journey from Statistics to Software Development. This project uses a **Node.js** backend with **Express.js** and is hosted on **Firebase**.
 
-## 🚀 Live Demo
+## Live Demo
 [View my Portfolio](soranqiji.firebaseapp.com)
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Backend:** Node.js, Express.js
 * **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
@@ -17,7 +17,7 @@ A minimalist, responsive portfolio website built to showcase my journey from Sta
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **Modular UI:** Uses an accordion-style interface to keep information organized and scannable.
 * **Full-Stack Foundation:** Powered by an Express server (`server.js`) to handle routing and potential API integrations.
@@ -26,7 +26,7 @@ A minimalist, responsive portfolio website built to showcase my journey from Sta
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── .github/workflows/  # Automated Firebase deployment scripts
