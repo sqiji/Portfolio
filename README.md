@@ -1,6 +1,6 @@
-# Portfolio - Software Developer | Data Analyst
+# Portfolio 
 
-A minimalist, responsive portfolio website built to showcase my journey from Statistics to Software Development. This project uses a **Node.js** backend with **Express.js** and is hosted on **Firebase**.
+This is my professional portfolio website, built with a **Node.js** backend and **Express.js** to showcase my career journey and technical expertise. The project is hosted on **Firebase** and integrated with **GitHub Actions** for **automatic deployment**, ensuring that every update pushed to GitHub is instantly built and live on the server.
 
 ## Live Demo
 [View my Portfolio](soranqiji.firebaseapp.com)
