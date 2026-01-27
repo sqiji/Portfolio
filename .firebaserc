@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "my-portfolio-3b4d7"
+  },
+  "targets": {
+    "my-portfolio-3b4d7": {
+      "hosting": {
+        "portfolio": [
+          "soranqiji"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
