@@ -37,3 +37,8 @@ This is my professional portfolio website, built with a **Node.js** backend and 
 ├── package.json        # Node.js metadata and dependencies
 ├── server.js           # Express server entry point
 └── Procfile            # Process file for production hosting
+
+---
+
+**Author: Soran Qiji \
+Project: Portfolio**
